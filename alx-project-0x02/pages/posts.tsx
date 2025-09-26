@@ -2,15 +2,15 @@ import Head from "next/head";
 import Header from "@/components/layout/Header";
 import Button from "@/components/common/Button";
 
-export default function AboutPage() {
+export default function PostsPage() {
   return (
     <>
       <Head>
-        <title>About | NextJS Project</title>
+        <title>Posts | NextJS Project</title>
       </Head>
       <Header />
       <main className="flex flex-col items-center justify-center h-screen bg-gray-100 space-y-6">
-        <h1 className="text-3xl font-bold mb-4">About This Project</h1>
+        <h1 className="text-3xl font-bold mb-4">Posts Page</h1>
         <div className="flex space-x-4">
           <Button label="Small Button" size="small" shape="rounded-sm" />
           <Button label="Small Button" size="small" shape="rounded-md" />
